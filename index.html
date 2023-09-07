@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea Filtros</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+  <body>
+    <div class="container">
+
+      
+      
+      <div class="filters-container" id="filters-container">
+
+        <!-- <div class="page-title-label"> -->
+          <!-- <label">Filter by price range</label> -->
+        <!-- </div> -->
+        
+        <label for="minPrice">Min. price</label>
+        <input type="number"  min="0" id="minPrice" value="">
+
+        <label for="minPrice">Max. price</label>
+        <input type="number"  min="0" id="maxPrice" value="">
+
+        <button type="button" id="submitBtn" class="form-button">Filter</button>
+        <button type="button" id="clearBtn" class="form-button">Clear</button>
+        
+      </div>
+      
+      <div class="products" id="prod-container">
+            
+      </div>
+    </div>
+   
+
+    <script src="init.js"></script>
+  </body>
+</html>
